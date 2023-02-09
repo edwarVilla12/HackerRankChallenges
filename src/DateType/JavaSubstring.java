@@ -1,11 +1,8 @@
 package DateType;
 
-import java.text.DecimalFormat;
-import java.text.NumberFormat;
-import java.util.Locale;
 import java.util.Scanner;
 
-public class JavaStdinStdout {
+public class StdinStdout {
 
     public static void main(String[] args) {
         /*
@@ -13,13 +10,16 @@ public class JavaStdinStdout {
             Print output to STDOUT. Your class should be named Solution.
         */
         Scanner sc = new Scanner(System.in);
+        System.out.println("Type the a value: ");
         int a = sc.nextInt();
+        System.out.println("Type the b value: ");
         int b = sc.nextInt();
+        System.out.println("Type the c value: ");
         int c = sc.nextInt();
 
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
+        System.out.println("a: " + a +".32d");
+        System.out.println("b: " + b);
+        System.out.println("c: " + c);
     }
 
 }
