@@ -1,8 +1,14 @@
 package WordsNormalizer;
 
+import java.util.Scanner;
+
 public class SoccerCreatorWithStaticClasses {
 
+
+
         static class Sports{
+
+
             String getName(){
                 return "Generic Sports";
             }
